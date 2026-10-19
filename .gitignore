@@ -1,0 +1,21 @@
+# 编译产物（不要提交，各自本地编译即可）
+build/
+build*/
+*.o
+*.obj
+*.exe
+
+# 运行输出
+*_detect.png
+*_card.png
+shot_*.png
+result_*.png
+
+# 大文件：视频不要进 git（用 Release 或网盘分享）
+*.mp4
+*.webm
+
+# 编辑器/系统
+.vscode/
+.idea/
+.DS_Store
